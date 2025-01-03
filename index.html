@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+             <script>
+     var audio;
+$("#startAudio").on("click", function(e){
+    if(!audio){
+        audio = new Audio('https://github.com/KUUISER/KU_UI/blob/main/01%20-%20Goodbye%20Horses.mp3');;
+    }
+});        
+            </script>
 
 <head>
     <meta charset="UTF-8" />
@@ -55,14 +63,8 @@
                 You're Super Gay!!!
             </h1>
             <p>Play me for a great time.</p>
-            <script>
-     var audio;
-$("#startAudio").on("click", function(e){
-    if(!audio){
-        audio = new Audio('https://github.com/KUUISER/KU_UI/blob/main/01%20-%20Goodbye%20Horses.mp3');;
-    }
-});        
-            </script>
+            <audio controls>
+                <source src="     
             <a href="#" style="
                         position: absolute;
                         top: 10px;
